@@ -22,7 +22,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Как думаешь, люблю тебя?",                                    // First interaction
+            text: "Как думаешь, я люблю тебя?",                                    // First interaction
             yesBtn: "Естественно",                                             // Text for "Yes" button
             noBtn: "нет",                                               // Text for "No" button
             secretAnswer: "не просто любишь, обожаешь! ❤️"           // Secret hover message
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Мне очень с тобой повезло! 🎉💝💖💝💓",
-        message: "Вот такая валентинка получилась. Спасибо что ты есть. Я люблю тебя!",
+        message: "Вот такая кринж валентинка семиклассника получилась. Спасибо что ты есть. Я люблю тебя!",
         emojis: "✨💖😻🎆💋❤️💕"  // These will bounce around
     },
 
