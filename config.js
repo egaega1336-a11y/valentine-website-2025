@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Я люблю тебя?",                                    // First interaction
+            text: "Как думаешь, люблю тебя?",                                    // First interaction
             yesBtn: "Естественно",                                             // Text for "Yes" button
             noBtn: "нет",                                               // Text for "No" button
             secretAnswer: "не просто любишь, обожаешь! ❤️"           // Secret hover message
         },
         second: {
-            text: "Наскольо люблю?",                          // For the love meter
+            text: "Насколько люблю?",                          // For the love meter
             startText: "Вот настока!",                                   // Text before the percentage
             nextBtn: "Дальше ❤️"                                         // Text for the next button
         },
@@ -42,14 +42,14 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "УЖЕ БЛИЖЕ К ПРАВДЕ? 🥰🚀💝",  // Shows when they go past 5000%
+        extreme: "УЖЕ БЛИЖЕ К ПРАВДЕ 🥰💝",  // Shows when they go past 5000%
         high: "СИЛЬНЕЕ! 🚀💝",              // Shows when they go past 1000%
-        normal: "СИЛЬНЕЕ! 🥰"                           // Shows when they go past 100%
+        normal: "СЛАБО! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Кажется мне очень с тобой повезло! 🎉💝💖💝💓",
+        title: "Мне очень с тобой повезло! 🎉💝💖💝💓",
         message: "Вот такая валентинка получилась. Спасибо что ты есть. Я люблю тебя!",
         emojis: "✨💖😻🎆💋❤️💕"  // These will bounce around
     },
